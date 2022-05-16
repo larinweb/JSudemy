@@ -1,0 +1,97 @@
+@import url('fonts.css');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,500,700&display=swap');
+
+body {
+	background: #3c6;
+	position: relative;
+	min-width:320px;
+	font-family: 'Fira Code', monospace;
+}
+.wrp {
+	width: 100%;
+}
+.in {
+	margin: 0 auto;
+	width: 960px;
+}
+/* ====== START Header ====== */
+.hdr_wrp {
+	margin: 0;
+}
+.hdr {
+	margin: 0;
+}
+h1{
+	text-align: center;
+	color: #111;
+	font-size: 25px;
+	font-weight: 500;
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== END Header ====== */
+
+/* Media Queries–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Smaller than full-width */
+@media (max-width:1150px) {
+.in {
+	width: 950px;
+}
+}
+
+/* Smaller than desktop */
+@media (max-width:959px) {
+.in {
+	width: 750px;
+}
+}
+
+/* Smaller than tablet */
+@media (max-width:767px) {
+.in {
+	width: 530px;
+}
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media (max-width:560px) {
+.in {
+	width: 320px;
+}
+}
+
+
+/* ====== END CSS ====== */
