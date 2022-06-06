@@ -30,7 +30,7 @@ const arrObj = {
 };
 
 // arrObj.b = '1234';
-arrObj['b'] = '1234';
+arrObj['.b'] = '1234';
 
 //console.log(arrObj['b']);
 console.log(arrObj.b);
@@ -45,7 +45,7 @@ console.log(arrObj.b);
 console.log(arrObj['0']);
 //console.log(arrObj.b); undefined
 
-//  можно вкладывать обьекты в обьекты, ключом может быть новы обьект и\или масив
+// можно вкладывать обьекты в обьекты, ключом может быть новы обьект и\или масив
 const arrObjw = {
     0: 1,
     1: 2,
