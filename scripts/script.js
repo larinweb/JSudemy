@@ -139,3 +139,5 @@ console.log(isChecked || isClose);
 console.log(isChecked && isClose);
 
 console.log(2 + 2 * 2 === 8);
+
+// ************  Lesson 17
