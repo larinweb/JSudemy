@@ -18,7 +18,7 @@ if (num < 49) {
 
 // Тернарный оператор (три аргумента a ? b : c)
 const num2 = 50;
-(num2 === 50) ? console.log('Ok!') : console.log('NotOK');
+(num2 === 50) ? console.log('Ok!'): console.log('NotOK');
 
 
 const num3 = 50;
