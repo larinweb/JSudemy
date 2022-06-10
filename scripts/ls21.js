@@ -35,10 +35,10 @@ if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
   console.log('We leave');
 }
 
-console.log((hamburger === 3 && cola === 2 || fries === 3 && nuggets));
+console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
 
 let johnReport, alexReports, samReport, mariReport = 'done';
 
 console.log((johnReport || johnReport || samReport || mariReport));
 
-console.log(!0);
+console.log(!0); // оператор "НЕ"
