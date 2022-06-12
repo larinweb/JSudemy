@@ -73,3 +73,31 @@ for (let i = 2; i <= n; i++) { // Для всех i...
 
   console.log( i ); // простое число
 }
+
+
+
+
+//let moneyInsert = 0;
+// while (moneyInsert <= 5){
+//   console.log(moneyInsert);
+//   moneyInsert++;
+// }
+
+// let moneyInsert = 0;
+// do {
+//   console.log(moneyInsert);
+//   moneyInsert++;
+// }
+// while (moneyInsert <= 5);
+
+// for (let moneyInsert = 1; moneyInsert <= 5; moneyInsert++){
+//   console.log(moneyInsert);
+// }
+
+for (let moneyInsert = 1; moneyInsert <= 25; moneyInsert++){
+  if (moneyInsert === 6) {
+    //break;
+    continue;
+  }
+  console.log(moneyInsert);
+}
