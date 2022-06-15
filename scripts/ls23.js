@@ -48,7 +48,8 @@ let reverse = '';
 const reverseHeight = '8';
 
 for (let reverseLine = 0; reverseLine < reverseHeight; reverseLine++) {
-    for (let reverseColumn = reverseHeight; reverseColumn > reverseLine; reverseColumn--) {
+    for (let reverseColumn = reverseHeight; reverseColumn > reverseLine; reverseColumn--)
+    {
         reverse += '*';
     }
     reverse += '\n'; // perenos stroki
